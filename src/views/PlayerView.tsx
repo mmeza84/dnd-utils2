@@ -2,13 +2,12 @@ import { Suspense, lazy, useState } from 'react';
 
 import { CustomSelector } from '../components/custom-selector/CustomSelector';
 import { BACKGROUNDS, CLASSES, RACES } from '../utils/constants';
-import AbilityScores from './ability-scores/AbilityScores';
-import { ProfilePictureGenerator } from './profile-picture-generator/ProfilePictureGenerator';
 
 import './PlayerView.css';
 
 const NameGenerator = lazy(() => import('../views/name-generator/NameGenerator'));
 const BackstoryGenerator = lazy(() => import('./backstory-generator/BackstoryGenerator'));
+const AbilityScores = lazy(() => import('./ability-scores/AbilityScores'));
 
 export default function PlayerView() {
 	const [characterRace, setCharacterRace] = useState<string>('');
@@ -72,11 +71,9 @@ export default function PlayerView() {
 					/>
 				)}
 				{characterAction === 'Generate my profile picture' && (
-					<ProfilePictureGenerator
-						characterRace={characterRace}
-						characterClass={characterClass}
-						characterBackground={characterBackground}
-					/>
+					<div>
+						<h4>Profile picture generation coming soon...</h4>
+					</div>
 				)}
 			</Suspense>
 		</div>
