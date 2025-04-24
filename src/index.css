@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/**
+  * Color scheme: https://coolors.co/palette/edede9-d6ccc2-f5ebe0-e3d5ca-d5bdaf
+  * Grey: #edede9
+  * Dark Khaki: #d6ccc2
+  * Tan: #f5ebe0
+  * Light Khaki: #e3d5ca
+  * Mid Brown: #d5bdaf
+  */
+
+:root {
+	font-family: 'Philosopher', sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	--color-grey: #edede9;
+	--color-dark-khaki: #d6ccc2;
+	--color-tan: #f5ebe0;
+	--color-light-khaki: #e3d5ca;
+	--color-mid-brown: #d5bdaf;
+}
+
+input,
+select,
+textarea {
+	font-family: 'Philosopher', sans-serif;
+}
+
+.de-emphasized {
+	font-size: 0.85rem;
+	color: #666;
+}

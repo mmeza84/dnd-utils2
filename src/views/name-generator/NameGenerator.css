@@ -1,0 +1,12 @@
+.character-name-generator {
+}
+
+.character-name-generator h4,
+.character-name-generator p {
+	margin-bottom: 1rem;
+}
+
+.suggested-names {
+	padding: 0.5rem;
+	margin-bottom: 0.25rem;
+}

@@ -1,0 +1,9 @@
+.breadcrumbs {
+	margin: 0.75rem auto;
+	padding: 0.5rem;
+	background-color: var(--color-tan);
+}
+
+.breadcrumbs a {
+	color: #030303;
+}
