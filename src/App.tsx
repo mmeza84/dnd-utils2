@@ -1,13 +1,12 @@
 import RouterView from './RouterView';
+import { Header } from './components/header/Header';
 
 import './App.css';
 
 function App() {
 	return (
 		<div className="app">
-			<div className="app-header">
-				<h1>D&DUtils</h1>
-			</div>
+			<Header />
 			<div className="router-view">
 				<RouterView />
 			</div>
