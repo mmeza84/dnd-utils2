@@ -37,7 +37,7 @@ export function Header() {
 				<a href="/">Home</a>
 				<a href="/player">Player Tools</a>
 				<a href="/dm">DM Tools</a>
-				<a href="/links">Resources</a>
+				<a href="/resources">Resources</a>
 			</div>
 		</div>
 	);
