@@ -1,4 +1,4 @@
-export function Resources() {
+export default function Resources() {
 	return (
 		<div className="resources-view">
 			<h1>Resources</h1>
