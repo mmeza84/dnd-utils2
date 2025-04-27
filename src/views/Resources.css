@@ -1,0 +1,24 @@
+.resources-view {
+}
+
+.resources-view .resource-wrapper {
+	margin-top: 1rem;
+}
+
+.resources-view .resource-wrapper .resource-header {
+	display: flex;
+	align-items: center;
+}
+
+.resources-view .resource-wrapper .resource-name {
+	font-size: 1.2rem;
+	margin-right: 1.25rem;
+}
+.resources-view .resource-wrapper .resource-link {
+	font-size: 1.2rem;
+}
+
+.resources-view .resource-wrapper .resource-description {
+	font-size: 0.85rem;
+	color: #363636;
+}

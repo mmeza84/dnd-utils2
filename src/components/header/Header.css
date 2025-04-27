@@ -1,7 +1,5 @@
 .app-header {
 	padding: 1.25rem;
-	text-align: center;
-	/* background-color: var(--color-dark-khaki); */
 	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 	position: relative;
 }
@@ -45,9 +43,14 @@
 }
 
 .header-links {
+	border-top: 1px solid #ccc;
 	display: flex;
+	gap: 0.25rem;
+	margin-top: 0.25rem;
+	padding-top: 0.5rem;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 .header-links.collapsed {
@@ -65,6 +68,7 @@
 	}
 
 	.header-links {
+		border-top: none;
 		flex-direction: row;
 		justify-content: flex-start;
 		margin-right: 1.5rem;
