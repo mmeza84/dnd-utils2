@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import useGemini from '../../hooks/useGemini';
 import { PromptGenerators, ResponseSchemas } from '../../models/geminiModels';
 
-import './BackstoryGenerator.css';
+import './BackstoryGenerator.scss';
 
 export interface BackstoryGeneratorProps {
 	characterRace: string;

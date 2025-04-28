@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 import useMobile from '../../hooks/useMobile';
 
-import './Header.css';
+import './Header.scss';
 
 export function Header() {
 	const isMobile = useMobile();

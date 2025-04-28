@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 
-import './Home.css';
+import './Home.scss';
 
 export default function Home() {
 	return (

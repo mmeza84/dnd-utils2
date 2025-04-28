@@ -1,4 +1,4 @@
-import './CustomSelector.css';
+import './CustomSelector.scss';
 
 export interface CustomSelectorProps {
 	sourceList: string[];

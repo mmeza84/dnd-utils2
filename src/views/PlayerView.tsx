@@ -3,7 +3,7 @@ import { Suspense, lazy, useState } from 'react';
 import { CustomSelector } from '../components/custom-selector/CustomSelector';
 import { BACKGROUNDS, CLASSES, RACES } from '../utils/constants';
 
-import './PlayerView.css';
+import './PlayerView.scss';
 
 const NameGenerator = lazy(() => import('../views/name-generator/NameGenerator'));
 const BackstoryGenerator = lazy(() => import('./backstory-generator/BackstoryGenerator'));

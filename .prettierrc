@@ -8,7 +8,7 @@
 	"trailingComma": "es5",
 	"plugins": ["@trivago/prettier-plugin-sort-imports"],
 	"sortImports": true,
-	"importOrder": ["^components/(.*)$", "^[./](?!.*\\.css$)", "^[./].*\\.css$"],
+	"importOrder": ["^components/(.*)$", "^[./](?!.*\\.scss$)", "^[./].*\\.scss$"],
 	"importOrderSeparation": true,
 	"importOrderSortSpecifiers": true
 }

@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import useGemini from '../../hooks/useGemini';
 import { PromptGenerators, ResponseSchemas } from '../../models/geminiModels';
 
-import './AbilityScores.css';
+import './AbilityScores.scss';
 
 export interface AbilityScoresProps {
 	characterRace: string;

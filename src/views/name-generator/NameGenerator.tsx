@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import useGemini from '../../hooks/useGemini';
 import { PromptGenerators, ResponseSchemas } from '../../models/geminiModels';
 
-import './NameGenerator.css';
+import './NameGenerator.scss';
 
 export interface CharacterNameGeneratorProps {
 	characterRace: string;

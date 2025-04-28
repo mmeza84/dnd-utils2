@@ -1,0 +1,18 @@
+.home-links {
+	display: flex;
+	flex-direction: column;
+
+	a {
+		color: #030303;
+
+		&:hover {
+			color: #c98e41;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.home-links {
+		font-size: 1.2rem;
+	}
+}
